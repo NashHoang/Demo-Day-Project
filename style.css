@@ -1,0 +1,18 @@
+#back{
+    background-image: url("images/high.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.frame {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    box-shadow:2px 2px grey;
+    background-color: white;
+}
+
+#new {
+    height:min-content;
+}
