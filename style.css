@@ -1,18 +1,177 @@
-#back{
+#back {
     background-image: url("images/high.png");
     background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size:cover;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', cursive;
+}
+
 .frame {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    box-shadow:2px 2px grey;
+
     background-color: white;
 }
 
-#new {
-    height:min-content;
+.bar {
+    background-color: #23395d;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+button {
+    border: none;
+}
+
+.bar button {
+    background-color: #23395d;
+    color: #FFDB58;
+}
+
+
+h2 {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub {
+    background-color: #23395d;
+   position:relative;
+    display: none;
+    text-align: center;
+    
+ font-style: bold;
+ font-size: 40px;
+ color: #FFDB58;
+}
+
+.header:hover .sub {
+    display: block;
+    
+    
+}
+
+.bronxContent {
+    display: none;
+    position: relative;
+    background-color: #23395d;
+
+
+}
+
+.bronxContent h2 {
+    color: #FFDB58;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.bronxContent h2:hover {
+    background-color: #ddd;
+}
+
+.bar:hover .bronxContent {
+    display: flex;
+}
+
+.manhattanContent {
+    display: none;
+    position: relative;
+    background-color: #23395d;
+
+
+}
+
+.manhattanContent h2 {
+    color: #FFDB58;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.manhattanContent h2:hover {
+    background-color: #ddd;
+}
+
+.bar:hover .manhattanContent {
+    display: flex;
+}
+
+.queensContent {
+    display: none;
+    position: relative;
+    background-color: #23395d;
+
+
+}
+
+.queensContent h2 {
+    color: #FFDB58;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.queensContent h2:hover {
+    background-color: #ddd;
+}
+
+.bar:hover .queensContent {
+    display: flex;
+}
+
+.brooklynContent {
+    display: none;
+    position: relative;
+    background-color: #23395d;
+
+
+}
+
+.brooklynContent h2 {
+    color: #FFDB58;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.brooklynContent h2:hover {
+    background-color: #ddd;
+}
+
+.bar:hover .brooklynContent {
+    display: flex;
+}
+
+.statenContent {
+    display: none;
+    position: relative;
+    background-color: #23395d;
+
+
+}
+
+.statenContent h2 {
+    color: #FFDB58;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.statenContent h2:hover {
+    background-color: #ddd;
+}
+
+.bar:hover .statenContent {
+    display: flex;
 }
