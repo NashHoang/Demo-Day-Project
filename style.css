@@ -1,10 +1,39 @@
-#back {
+.about {
     background-image: url("images/high.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover;
+    
 }
 
+#ph{
+    padding-top: 50px;
+    padding-left: 40px;
+    
+}
+
+#exp{
+    margin-left:40px;
+    background-color: #23395d;
+    width: 400px;
+    padding-top: 8px;
+    
+
+}
+#fill{
+    display:flex;
+
+}
+#wr{
+    width: 360px;
+    color:#FFDB58;
+    font-size: 25px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', cursive;
 }
@@ -15,6 +44,7 @@ h1 {
     justify-content: center;
 
     background-color: white;
+
 }
 
 .bar {
