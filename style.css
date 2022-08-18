@@ -288,6 +288,76 @@ a {
     width: 900px;
     
 }
+
+.format {
+    background-color:#23395d;
+    display:flex;
+    justify-content: space-around;
+}
+
+.basic {
+    color:#FFDB58;
+    display:flex;
+    flex-direction: column;
+}
+
+.counselor p{
+    color:#FFDB58;
+    display:flex;
+    justify-content: center;
+    
+
+}
+.sports{
+    display: flex;
+    
+}
+.clubs {
+    color:#FFDB58;
+    display:flex;
+    flex-direction: column;
+}
+
+.clubs2 {
+    color:#FFDB58;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#link{
+    color:#FFDB58;
+    display: flex;
+    justify-content: center;
+}
+#link2{
+    color:#FFDB58;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-style: bold;
+    width:max-content;
+    margin-bottom: 30px;
+}
+#divide{
+    background:#4e77ba;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.home2 {
+    display:flex;
+    flex-direction: row-reverse;
+    color:#FFDB58;
+    font-size: 30px;
+    text-decoration:underline;
+    font-style: italic;
+    background-color: #23395d;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+    
+ }
 a {
     text-decoration: none;
 }
